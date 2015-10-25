@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app='App'>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="icon" href="view/img/favicon.ico" type="image/x-icon" />
+  	<title>Sleev</title>
+
+  	<!-- LIBRARIES -->
+    <script src="view/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="view/libs/angular/angular.min.js"></script>
+    <script src="view/libs/angular-route/angular-route.min.js"></script>
+    <script src="view/libs/angular-resource/angular-resource.min.js"></script>
+    <script src="view/libs/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="view/libs/jquery/dist/jquery.min.js"></script>
+    <script src="view/libs/trianglify/dist/trianglify.min.js"></script>
+    <script src="view/libs/d3/d3.min.js"></script>
+
+  	<!-- STYLE / THEME -->
+  	<link href="view/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="view/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  	<link href="view/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+
+  	<!-- THIS APP. -->
+  	<script src="controller/services.js"></script>
+    <script src="controller/directives.js"></script>
+    <script src="controller/filters.js"></script>
+    <script src="controller/controllers.js"></script>
+    <script src="App.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- ANGULAR DYNAMIC CONTENT -->
+      <div id="content-canvas" ng-view></div>
+    </div>
+  </body>
+</html>

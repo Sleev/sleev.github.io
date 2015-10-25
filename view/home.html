@@ -1,0 +1,50 @@
+<div class="navbar">
+  <button onclick="location.href = '#/about';" type="button" class="btn3d btn btn-white btn-lg navbar-left"><i class="fa fa-arrow-left"></i> About</button>
+  <button onclick="location.href = '#/contact';" type="button" class="btn3d btn btn-white btn-lg navbar-right">Contact <i class="fa fa-arrow-right"></i></button>
+</div>
+<div class="head-text text-center">
+  <h1> {{titleread}}<span class="blinking-cursor">|</span></h1><br>
+  <div class="rowwrap">
+    <button type="button" class="btn3d btn btn-white btn-lg invisible">Delete</button>
+    <div class="keyrow">
+      <button type="button" ng-click="insertchar('q')" class="btn3d btn btn-white btn-lg">Q</button>
+      <button type="button" ng-click="insertchar('w')" class="btn3d btn btn-white btn-lg">W</button>
+      <button type="button" ng-click="insertchar('e')" class="btn3d btn btn-white btn-lg">E</button>
+      <button type="button" ng-click="insertchar('r')" class="btn3d btn btn-white btn-lg">R</button>
+      <button type="button" ng-click="insertchar('t')" class="btn3d btn btn-white btn-lg">T</button>
+      <button type="button" ng-click="insertchar('y')" class="btn3d btn btn-white btn-lg">Y</button>
+      <button type="button" ng-click="insertchar('u')" class="btn3d btn btn-white btn-lg">U</button>
+      <button type="button" ng-click="insertchar('i')" class="btn3d btn btn-white btn-lg">I</button>
+      <button type="button" ng-click="insertchar('o')" class="btn3d btn btn-white btn-lg">O</button>
+      <button type="button" ng-click="insertchar('p')" class="btn3d btn btn-white btn-lg">P</button>
+    </div>
+    <button type="button" ng-click="deletechar()" class="btn3d btn btn-white btn-lg specbutton">Delete</button>
+  </div>
+  <div class="rowwrap">
+    <button type="button" class="btn3d btn btn-white btn-lg invisible">Enter</button>
+    <div class="keyrow">
+      <button type="button" ng-click="insertchar('a')" class="btn3d btn btn-white btn-lg">A</button>
+      <button type="button" ng-click="insertchar('s')" class="btn3d btn btn-white btn-lg">S</button>
+      <button type="button" ng-click="insertchar('d')" class="btn3d btn btn-white btn-lg">D</button>
+      <button type="button" ng-click="insertchar('f')" class="btn3d btn btn-white btn-lg">F</button>
+      <button type="button" ng-click="insertchar('g')" class="btn3d btn btn-white btn-lg">G</button>
+      <button type="button" ng-click="insertchar('h')" class="btn3d btn btn-white btn-lg">H</button>
+      <button type="button" ng-click="insertchar('j')" class="btn3d btn btn-white btn-lg">J</button>
+      <button type="button" ng-click="insertchar('k')" class="btn3d btn btn-white btn-lg">K</button>
+      <button type="button" ng-click="insertchar('l')" class="btn3d btn btn-white btn-lg">L</button>
+    </div>
+    <button type="button" class="btn3d btn btn-white btn-lg specbutton">Enter</button>
+  </div>
+  <div class="keyrow">
+    <button type="button" ng-click="insertchar('z')" class="btn3d btn btn-white btn-lg">Z</button>
+    <button type="button" ng-click="insertchar('x')" class="btn3d btn btn-white btn-lg">X</button>
+    <button type="button" ng-click="insertchar('c')" class="btn3d btn btn-white btn-lg">C</button>
+    <button type="button" ng-click="insertchar('v')" class="btn3d btn btn-white btn-lg">V</button>
+    <button type="button" ng-click="insertchar('b')" class="btn3d btn btn-white btn-lg">B</button>
+    <button type="button" ng-click="insertchar('n')" class="btn3d btn btn-white btn-lg">N</button>
+    <button type="button" ng-click="insertchar('m')" class="btn3d btn btn-white btn-lg">M</button>
+    <button type="button" class="btn3d btn btn-white btn-lg invisible">M</button>
+  </div>
+  <br>
+  <button type="button" ng-click="insertchar(' ')" style="padding-left:11em; padding-top:1.8em" class="btn3d btn btn-white btn-lg"></button>
+</div>

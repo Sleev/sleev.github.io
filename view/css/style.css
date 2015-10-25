@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: rgba(63, 191, 191, .8);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+img {
+  margin-top: 2em;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:hover,
+a:active,
+a:active:focus {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.navbar {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#content-canvas {
+  position:absolute;
+  z-index:100;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#content-canvas div {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(250, 250, 250, 1);
+  margin-bottom: auto;
+}
+
+#content-canvas div.head-text {
+  margin-top: 4%;
+}
+
+#content-canvas div.head-text {
+  margin-top: 3%;
+}
+
+.keyrow {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+div h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+div h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.abouthead {
+  font-size: 40px;
+  margin: 0;
+}
+
+div h2.contacttitle {
+  font-size: 65px;
+}
+
+.contactbutton {
+  width: 150px;
+  margin:0 auto;
+  text-align: center;
+}
