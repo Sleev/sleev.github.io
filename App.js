@@ -21,10 +21,10 @@
         templateUrl: 'view/home.html',
         controller: 'HomeCtrl'
       })
-      // .when('/about', {
-      //      templateUrl: 'view/about.html',
-      //      controller: 'AboutCtrl'
-      // })
+      .when('/cuff', {
+           templateUrl: 'view/cuff.html',
+           controller: 'CuffCtrl'
+      })
       // .when('/contact', {
       //      templateUrl: 'view/contact.html',
       //      controller: 'ContactCtrl'

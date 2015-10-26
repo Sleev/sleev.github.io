@@ -9,7 +9,7 @@
 
   }]);
 
-  App.controller("AboutCtrl", ["$scope", function ($scope){
+  App.controller("CuffCtrl", ["$scope", function ($scope){
 
   }]);
 
