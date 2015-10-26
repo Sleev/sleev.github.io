@@ -4,8 +4,9 @@ html {
 
 body {
   height: 100%;
-  background-color: rgba(63, 191, 191, .8);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #A15656;
+  font-family: 'VT323', ;
+  color: #323232;
 }
 
 img {
@@ -41,7 +42,6 @@ a:active:focus {
 
 #content-canvas div {
   background-color: rgba(0, 0, 0, 0);
-  color: rgba(250, 250, 250, 1);
   margin-bottom: auto;
 }
 
@@ -82,4 +82,61 @@ div h2.contacttitle {
   width: 150px;
   margin:0 auto;
   text-align: center;
+}
+
+/*    --------------------
+        blinking cursor
+      --------------------    */
+
+.blinking-cursor {
+  -webkit-animation: 1.5s blink step-end infinite;
+  -moz-animation: 1.5s blink step-end infinite;
+  -ms-animation: 1.5s blink step-end infinite;
+  -o-animation: 1.5s blink step-end infinite;
+  animation: 1.5s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
 }

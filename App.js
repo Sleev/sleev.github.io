@@ -11,7 +11,11 @@
     "ngResource"
   ]);
 
-  App.config(function ($routeProvider) {
+  App.config(function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+    });
     $routeProvider
       .when('/', {
         templateUrl: 'view/home.html',
@@ -26,10 +30,6 @@
       //      controller: 'ContactCtrl'
       // })
       .otherwise({redirectTo : '/'});
-  });
-
-  App.config(function ($locationProvider) {
-     $locationProvider.html5Mode(true);
   });
 
 }());
